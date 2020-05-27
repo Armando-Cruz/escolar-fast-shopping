@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-size: 1.6rem;
+}
+.app-content {
+  max-width: 60rem;
+  margin: 0 auto;
+  width: 100%;
+}
+.form-control {
+  padding: 1rem !important;
+}
+@media (min-width: 768px) {
+  .form-control {
+    padding: 2rem !important;
+  }
+}
+button,
+.btn,
+input,
+.forget-password,
+a {
+  font-size: 1.6rem !important;
+}
+.list-group-item {
+  padding: 2rem !important;
+}
+.delete-product-btn {
+  cursor: pointer;
+}
